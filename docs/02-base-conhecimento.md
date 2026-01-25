@@ -25,13 +25,36 @@ Pesquisa de perfil de investidor a inclusão de novos produtos financeiros basea
 
 ### Como os dados são carregados?
 > Descreva como seu agente acessa a base de conhecimento.
+Existem duas possibilidades: injetar diretamente no prompt (Ctrl + C, Ctrl + V) ou carregar via código, como no exemplo abaixo:
+ 
+```python
+import pandas as pd
+import json
 
-[ex: Os JSON/CSV são carregados no início da sessão e incluídos no contexto do prompt]
+# CSVs
+histórico = pd.read_csv('data/historico_atendimento.csv')
+transações = pd.read_csv('data/transacoes.csv')
+
+# JSONs
+with open('data/perfil investidor.json', 'r', encoding='utf-8') as f:
+	perfil = json.load(f)
+with open('data/produtos financeiros.json', 'r', encoding='utf-8') as f:
+	produtos = json.load(f)
+
+```
 
 ### Como os dados são usados no prompt?
 > Os dados vão no system prompt? São consultados dinamicamente?
 
-[Sua descrição aqui]
+```text
+PERFIL DO CLIENTE:
+
+HISTORICO DO CLIENTE:
+
+TRANSACOES DO CLIENTE:
+
+PRODUTOS FINANCEIROS:
+```
 
 ---
 
