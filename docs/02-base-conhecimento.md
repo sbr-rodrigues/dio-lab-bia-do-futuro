@@ -6,13 +6,10 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 | Arquivo | Formato | Utilização no Agente |
 |---------|---------|---------------------|
-| `historico_atendimento.csv` | CSV | Contextualizar interações anteriores |
-| `perfil_investidor.json` | JSON | Personalizar recomendações |
-| `produtos_financeiros.json` | JSON | Sugerir produtos adequados ao perfil |
-| `transacoes.csv` | CSV | Analisar padrão de gastos do cliente |
-
-> [!TIP]
-> **Quer um dataset mais robusto?** Você pode utilizar datasets públicos do [Hugging Face](https://huggingface.co/datasets) relacionados a finanças, desde que sejam adequados ao contexto do desafio.
+| `historico_atendimento.csv` | CSV | Mantém o contexto de conversas passadas, evitando que o cliente precise repetir informações e garantindo fluidez.|
+| `perfil_investidor.json` | JSON | Define os parâmetros e pesos das respostas do quiz para classificar o cliente (Conservador, Moderado ou Arrojado). |
+| `produtos_financeiros.json` | JSON | Catálogo técnico de investimentos (risco, rentabilidade e carência) para cruzamento com o perfil do cliente. |
+| `transacoes.csv` | CSV | Analisa o fluxo de caixa e padrões de consumo para validar se a capacidade de investimento é compatível com o perfil declarado. |
 
 ---
 
