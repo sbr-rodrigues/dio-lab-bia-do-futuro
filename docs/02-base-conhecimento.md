@@ -176,7 +176,7 @@ PRODUTOS FINANCEIROS (data/produtos_financeiros.json):
 ## Exemplo de Contexto Montado
 
 > Mostre um exemplo de como os dados são formatados para o agente.
-
+O exemplo abaixo encontra se na base de conhecimento, sintetizados com isso otimizando o consumo de tokens. Ressaltando todas as informações relevantes.
 ```
 Dados do Cliente:
 - Nome: Dominic Ferreira
