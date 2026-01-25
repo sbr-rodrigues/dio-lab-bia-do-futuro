@@ -32,6 +32,38 @@
     "indicado_para": "Perfil moderado que busca diversificação"
   },
   {
+    "nome": "Tesouro IPCA+",
+    "categoria": "renda_fixa",
+    "risco": "medio",
+    "rentabilidade": "IPCA + Taxa Fixa",
+    "aporte_minimo": 40.00,
+    "indicado_para": "Proteção contra a inflação no longo prazo"
+  },
+  {
+    "nome": "Fundos Imobiliários (FIIs)",
+    "categoria": "renda_variavel",
+    "risco": "medio_alto",
+    "rentabilidade": "Dividendos + Valorização",
+    "aporte_minimo": 10.00,
+    "indicado_para": "Geração de renda mensal e diversificação imobiliária"
+  },
+   {
+    "nome": "ETFs (Ex: IVVB11 ou BOVA11)",
+    "categoria": "renda_variavel",
+    "risco": "alto",
+    "rentabilidade": "Variação do Índice",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Diversificação em índices de ações com baixo custo"
+  },
+    {
+    "nome": "Criptoativos (Bitcoin/Ethereum)",
+    "categoria": "renda_variavel",
+    "risco": "muito_alto",
+    "rentabilidade": "Alta Volatilidade",
+    "aporte_minimo": 1.00,
+    "indicado_para": "Perfil agressivo buscando ganhos exponenciais"
+  },
+  {
     "nome": "Fundo de Ações",
     "categoria": "fundo",
     "risco": "alto",
