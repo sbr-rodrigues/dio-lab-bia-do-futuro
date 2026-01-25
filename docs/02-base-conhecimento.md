@@ -17,7 +17,7 @@ Descreva se usou os arquivos da pasta `data`, por exemplo:
 
 > Você modificou ou expandiu os dados mockados? Descreva aqui.
 
-[Sua descrição aqui]
+Pesquisa de perfil de investidor a inclusão de novos produtos financeiros baseados nas fontes, como títulos de inflação, renda variável e ativos internacionais afim de enriquecer o teste.
 
 ---
 
