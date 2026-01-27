@@ -29,7 +29,7 @@ Usuário: Renda Fixa, como Tesouro Direto e CDB, até Renda Variável, como Aç�
 Bayan: Você já investe atualmente? Se sim, em qual categoria?
 Usuário: Apenas renda fixa; renda fixa e variável.
 
-Bayan: Você possui alguma certificação profissional aprovada pela CVM?
+Bayan: Qual é o seu nível de escolaridade e área de formação?
 Usuário: Fundamental, Médio,  Superior, Certificado pela ANBIMA
 
 Usuário: O usuário afirma ter grande conhecimento de mercado e deseja retornos altíssimos (perfil arrojado), mas ao ser questionado sobre prazos e perdas, responde que precisa do dinheiro em 30 dias e que não aceita ver o saldo diminuir nem 1%.
@@ -75,7 +75,7 @@ Material de apoio: Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Ent
 
 ### Cenário 3:  Formação Acadêmica e Profissional.
 
-**Bayan:** Você possui alguma certificação profissional aprovada pela CVM?
+**Bayan:** Qual é o seu nível de escolaridade e área de formação?
 
 **Usuário:** Fundamental, Médio,  Superior, Certificado pela ANBIMA
 
@@ -127,5 +127,8 @@ Material de apoio: Few-Shot Prompts no artigo [Zero, One e Few-Shot Prompts: Ent
 
 > Registre aqui ajustes que você fez nos prompts e por quê.
 
-- [Observação 1]
-- [Observação 2]
+- Com base na proposta do projeto, o que mais foi satisfatório foi o ChatGPT. Ele se apresentou como Bayan e realizou o questionário para avaliação do perfil de investidor; quando confrontado com perguntas fora do escopo, agiu como esperado.
+
+- O Gemini se apresentou como Bayan e fez um resumo financeiro. Quando confrontado com uma pergunta fora do escopo, respondeu à pergunta, mas alertou que não era responsável por esse tipo de resposta.
+
+- O Copilot não se apresentou como Bayan, fez um resumo da vida financeira e, diante de uma pergunta fora do escopo, agiu como esperado.
