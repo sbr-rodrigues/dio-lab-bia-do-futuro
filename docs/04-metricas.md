@@ -53,10 +53,14 @@ Crie testes simples para validar seu agente:
 
 Após os testes, registre suas conclusões:
 
-**O que funcionou bem:**
-- [Liste aqui]
+**Desafios que encontrei:**
+- O modelo gpt-oss precisa de ~13 GB de RAM O computador utilizado tem ~3–4 GB livres. É limitação física de memória.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Troca o modelo para um leve
+  `ollama pull mistral`
+  `ollama pull llama3:8b`
+  `MODELO = "mistral"`
+- O modelo pode ser facilmente substituído por um LLM maior em ambiente com mais recursos. 
 
 ---
