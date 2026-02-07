@@ -197,4 +197,4 @@ Uso educacional e demonstrativo.
 
 Assista ao vídeo do pitch e demonstração do Bayan funcionando:
 
-👉 https://youtu.be/Z2uW5sPgg9Y
+👉 https://youtu.be/tVtbnCg0cHI
